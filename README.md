@@ -1,3 +1,5 @@
 # Nachbau-Terraform
 
-npm install hcl2-parser
+'node app.js validate --var-file=config.tfvars'
+
+'node app.js apply'
