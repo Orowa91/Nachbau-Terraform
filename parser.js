@@ -251,7 +251,7 @@ function checkSchemeVariables(scheme) {
 // Check if Config file is valid
 function matchConfig(config, scheme) {
 	for (var attributename in scheme.variable) {
-		if (myArray[attributename] !== undefined) { // check ob alle variablen in der main.tfdefiniert worden und config.tfvar existiert
+		if (myArray[attributename] !== undefined) { // check ob alle variablen in der main.tf definiert worden und config.tfvars existiert
 			const type = scheme.variable[attributename][0].type;
 			var typeParsed = type.substring(
 				type.indexOf("${") + 2,

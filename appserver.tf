@@ -15,6 +15,6 @@ resource "hetzner_instance" "appserver" {
 // ssh-keys muss und cloud-init optional 
   metadata = {
     ssh-keys = [file(var.ssh_pub_key_path)],
-	cloud-init = file(shell_file)
+	  cloud-init = file(shell_file)
   }
 }
