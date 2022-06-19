@@ -15,3 +15,4 @@ Sondern wird mit der Code die Cloud-Netzwerke und Ressourcen und gleichzeitig au
 
 ## Architektur
 
+![CC Architictur fertig](https://user-images.githubusercontent.com/56402018/174486628-9b55674a-52f6-4a17-b82a-7b80e82904de.jpg)
