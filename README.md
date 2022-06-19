@@ -13,4 +13,5 @@ dass der Endnutzer nicht mehr nötig ist,
 Ressourcen manuell im Bedienfeld des Anbieters zu erstellen, zu ändern und zu löschen.
 Sondern wird mit der Code die Cloud-Netzwerke und Ressourcen und gleichzeitig auch die Dokumentation verwaltet.
 
+## Architektur
 
