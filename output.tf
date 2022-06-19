@@ -1,5 +1,5 @@
 output "ip" {
-  value = "${vultr_instance.instance.main_ip}"
+  value = "${hetzner_instance.server.public_net.ipv4.ip}"
 }
 
 output "name" {
@@ -7,14 +7,9 @@ output "name" {
 }
 
 output "type" {
-  value = "${vultr_instance.instance.plan}"
+  value = "${hetzner_instance.server.server_type.description}"
 }
 
 output "status" {
-  value = "${vultr_instance.instance.status}"
-}
-
-output "ip" {
-  value = "${vultr_instance.instance.os}"
-}
+  value = "${hetzner_instance.server.created}"
 

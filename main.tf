@@ -1,4 +1,3 @@
-// Configure the Google Cloud provider
 
 variable "project_name" {
   type = string
@@ -6,25 +5,22 @@ variable "project_name" {
 
 variable "region" {
   type = string
-}
-
-variable "zone" {
-  type = number
-}
-
-variable "ssh_username" {
-  type = number
+  default = "eu-central"
 }
 
 variable "ssh_pub_key_path" {
   type = string
 }
 
-variable "google_credentials" {
+variable "count" {
+  type = number
+}
+
+variable "machineType" {
   type = string
 }
 
 provider "hetzner" {
- credentials = var.google_credentials
+ credentials = var.api_credentials
  region      = var.region
 }
